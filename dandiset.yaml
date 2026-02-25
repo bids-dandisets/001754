@@ -15,15 +15,45 @@ access:
   schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 32448840
+  numberOfFiles: 8
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
-citation: Knierim, James J.; McNaughton, Bruce L.; Poe, Gina R.; Dichter, Benjamin
-  (2026) Three-dimensional spatial selectivity of hippocampal neurons during space
-  flight (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001754/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ProcessingModule
+  - ElectrodeGroup
+  - SpatialSeries
+  - Position
+citation: Knierim, James J.; McNaughton, Bruce L.; Poe, Gina R. (2026) Three-dimensional
+  spatial selectivity of hippocampal neurons during space flight (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001754/draft
 contributor:
 - affiliation:
-  - name: University of Arizona, Arizona Research Laboratories Division of Neural
+  - identifier: https://ror.org/03m2x1q45
+    name: University of Arizona, Arizona Research Laboratories Division of Neural
       Systems, Memory & Aging
     schemaKey: Affiliation
   includeInCitation: true
@@ -34,7 +64,8 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - affiliation:
-  - name: University of Arizona, Arizona Research Laboratories Division of Neural
+  - identifier: https://ror.org/03m2x1q45
+    name: University of Arizona, Arizona Research Laboratories Division of Neural
       Systems, Memory & Aging
     schemaKey: Affiliation
   email: bruce@nsma.arizona.edu
@@ -46,7 +77,8 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
-  - name: University of Arizona, Arizona Research Laboratories Division of Neural
+  - identifier: https://ror.org/03m2x1q45
+    name: University of Arizona, Arizona Research Laboratories Division of Neural
       Systems, Memory & Aging
     schemaKey: Affiliation
   includeInCitation: true
@@ -57,28 +89,32 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - affiliation:
-  - name: CatalystNeuro
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
     schemaKey: Affiliation
   email: ben.dichter@catalystneuro.com
-  includeInCitation: true
+  includeInCitation: false
   name: Dichter, Benjamin
   roleName:
   - dcite:ContactPerson
   - dcite:DataCurator
   schemaKey: Person
 - awardNumber: NAG 2-949
+  identifier: https://ror.org/027ka1x80
   includeInCitation: false
   name: National Aeronautics and Space Administration
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: NS33471, NS20331
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
 - awardNumber: N0014-98-1-0180, N0014-96-1-1082
+  identifier: https://ror.org/00rk2pe57
   includeInCitation: false
   name: Office of Naval Research
   roleName:
