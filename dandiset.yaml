@@ -52,10 +52,15 @@ citation: Knierim, James J.; McNaughton, Bruce L.; Poe, Gina R. (2026) Three-dim
   set]. DANDI Archive. https://dandiarchive.org/dandiset/001754/draft
 contributor:
 - affiliation:
+  - identifier: https://ror.org/03gds6c39
+    name: University of Texas-Houston Medical School, Department of Neurobiology &
+      Anatomy
+    schemaKey: Affiliation
   - identifier: https://ror.org/03m2x1q45
     name: University of Arizona, Arizona Research Laboratories Division of Neural
       Systems, Memory & Aging
     schemaKey: Affiliation
+  identifier: 0000-0002-1796-2930
   includeInCitation: true
   name: Knierim, James J.
   roleName:
@@ -69,6 +74,7 @@ contributor:
       Systems, Memory & Aging
     schemaKey: Affiliation
   email: bruce@nsma.arizona.edu
+  identifier: 0000-0002-2080-5258
   includeInCitation: true
   name: McNaughton, Bruce L.
   roleName:
@@ -81,6 +87,7 @@ contributor:
     name: University of Arizona, Arizona Research Laboratories Division of Neural
       Systems, Memory & Aging
     schemaKey: Affiliation
+  identifier: 0000-0003-3388-2858
   includeInCitation: true
   name: Poe, Gina R.
   roleName:
@@ -93,6 +100,7 @@ contributor:
     name: CatalystNeuro
     schemaKey: Affiliation
   email: ben.dichter@catalystneuro.com
+  identifier: 0000-0001-5725-6910
   includeInCitation: false
   name: Dichter, Benjamin
   roleName:
@@ -106,14 +114,28 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: NS33471, NS20331
+- awardNumber: NS33471
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: N0014-98-1-0180, N0014-96-1-1082
+- awardNumber: NS20331
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: N0014-98-1-0180
+  identifier: https://ror.org/00rk2pe57
+  includeInCitation: false
+  name: Office of Naval Research
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: N0014-96-1-1082
   identifier: https://ror.org/00rk2pe57
   includeInCitation: false
   name: Office of Naval Research
@@ -167,11 +189,15 @@ relatedResource:
   name: Three-dimensional spatial selectivity of hippocampal neurons during space
     flight
   relation: dcite:IsDescribedBy
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/72910
 - identifier: doi:10.26030/22gd-1191
-  name: NASA Open Science Data Repository - Knierim, McNaughton & Poe Neurolab dataset
+  name: 'OSD-968: Three-dimensional spatial selectivity of hippocampal neurons during
+    space flight'
   relation: dcite:IsDerivedFrom
+  repository: NASA ALSDA
+  resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://doi.org/10.26030/22gd-1191
 repository: https://dandiarchive.org
