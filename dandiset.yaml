@@ -200,6 +200,18 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://doi.org/10.26030/22gd-1191
+- name: Example notebook
+  relation: dcite:IsSupplementedBy
+  repository: DANDI Example Notebooks
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/dandi/example-notebooks/tree/master/001754/CatalystNeuro
+- name: mcnaughton2000-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/mcnaughton2000-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
